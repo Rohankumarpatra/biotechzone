@@ -3,109 +3,94 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BiotechZone – Explore Modern Biotechnology</title>
-  <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;600&display=swap" rel="stylesheet" />
+  <title>BiotechZone</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    * {
+    body {
+      font-family: 'Inter', sans-serif;
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
+      background-color: #fff;
+      color: #111;
     }
-
-    body {
-      font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background-color: #ffffff;
-      color: #1d1d1f;
-      line-height: 1.6;
-      padding: 2rem;
-    }
-
     header {
       text-align: center;
-      padding: 4rem 2rem;
+      padding: 100px 20px 60px;
     }
-
-    header h1 {
-      font-size: 3rem;
-      font-weight: 600;
-      margin-bottom: 1rem;
+    h1 {
+      font-size: 48px;
+      font-weight: 700;
     }
-
-    header p {
-      font-size: 1.25rem;
-      color: #6e6e73;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 2rem;
-      padding: 0.75rem 2rem;
-      font-size: 1rem;
-      font-weight: 500;
-      color: #fff;
-      background-color: #0071e3;
-      border-radius: 10px;
-      text-decoration: none;
-      transition: background 0.3s;
-    }
-
-    .button:hover {
-      background-color: #005bb5;
-    }
-
-    section {
-      max-width: 900px;
-      margin: 4rem auto;
-      text-align: center;
-    }
-
-    section h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-
-    section p {
-      font-size: 1.1rem;
+    p {
+      font-size: 18px;
       color: #444;
     }
-
-    .highlight {
-      color: #0071e3;
-      font-weight: 500;
+    .cta {
+      margin-top: 20px;
     }
-
+    .cta a {
+      background-color: #007aff;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      line-height: 2;
+    }
+    ul li::before {
+      content: "✔️";
+      margin-right: 8px;
+    }
     footer {
       text-align: center;
-      padding: 2rem;
-      font-size: 0.9rem;
-      color: #888;
+      padding: 40px;
+      background: #f5f5f7;
+      color: #555;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
-
   <header>
     <h1>BiotechZone</h1>
-    <p>Your Gateway to <span class="highlight">Modern Biotechnology</span></p>
-    <a href="#about" class="button">Explore Now</a>
+    <p>Your Gateway to <strong style="color: #007aff;">Modern Biotechnology</strong></p>
+    <div class="cta">
+      <a href="#">Explore Now</a>
+    </div>
   </header>
 
-  <section id="about">
+  <section>
     <h2>About BiotechZone</h2>
-    <p>BiotechZone is a modern, student-friendly platform to explore the world of <strong>molecular biology</strong>, <strong>genetic engineering</strong>, and <strong>biotech innovations</strong>. Whether you're a student, researcher, or enthusiast, BiotechZone brings biotechnology concepts to life in an elegant and minimal style.</p>
+    <p>
+      BiotechZone is a modern, student-friendly platform to explore the world of 
+      <strong>molecular biology</strong>, <strong>genetic engineering</strong>, and 
+      <strong>biotech innovations</strong>. Whether you're a student, researcher, or enthusiast, 
+      BiotechZone brings biotechnology concepts to life in an elegant and minimal style.
+    </p>
   </section>
 
-  <section id="features">
+  <section>
     <h2>What You’ll Discover</h2>
-    <p>✔️ Hands-on lab protocols (PCR, Electrophoresis)<br>
-       ✔️ Research ideas on medicinal plants & gene editing<br>
-       ✔️ Internship projects and biotech career resources<br>
-       ✔️ Biotech news, blogs, and student tools</p>
+    <ul>
+      <li>Hands-on lab protocols (PCR, Electrophoresis)</li>
+      <li>Research ideas on medicinal plants & gene editing</li>
+      <li>Internship projects and biotech career resources</li>
+      <li>Biotech news, blogs, and student tools</li>
+    </ul>
   </section>
 
   <footer>
-    © 2025 BiotechZone. Designed with science & simplicity.
+    © 2025 BiotechZone — Designed with ❤️ by Rohan
   </footer>
-
 </body>
 </html>
